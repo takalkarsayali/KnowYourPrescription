@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Know Your Prescription </title>
+    <link rel="stylesheet" href="sunhack.css">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0c468a3263.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="landing">
+            <img class="logo" src="logo.png" alt="logo">
+            <h1 class="heading">Know Your Prescription</h1>
+        </div>
+        <div class="result">
+            <!-- Navbar -->
+            <div id="navbar">
+                <img class="navlogo" src="logo.png" alt="logo">
+                <a href="#" href="javascript:void(0)" onclick="document.getElementById('id01').style.display='block'"
+                    style="padding-bottom: 25px;">Login</a>
+                <a href="#footer" href="javascript:void(0)" style="padding-bottom: 25px;">Contact</a>
+                <a href="#team" href="javascript:void(0)" style="padding-bottom: 25px;">Team</a>
+                <a href="" href="javascript:void(#Home)" style="padding-bottom: 25px;">Home</a>
+                <a href="#test" href="javascript:void(#Home)" style="padding-bottom: 25px;">Test</a>
+            </div>
+
+            <div id="test" class="img-upload">
+                <h3>Upload the Prescription and Reports here</h3>
+                <!-- Upload image -->
+                <div class="card card1"
+                    style="width: 25rem; height: 25rem; border-radius: 3%;border-style: dashed;border-width:3px; border-color: black;">
+                    <img src="upload.jpeg" class="card-img-top" style="padding:3rem 7rem 3rem 7rem" alt="brain1">
+
+                    <div class="drop-zone">
+                        <div class="button-wrap">
+                            <label class="button" for="upload"><i class="fa-solid fa-cloud-arrow-up"
+                                    style="padding-right:0.5rem ;"></i>Upload File</label>
+                            <input id="upload" type="file">
+                        </div>
+                        <span class="drop-zone__prompt">Or Drop file</span>
+                        <input type="file" name="myFile" class="drop-zone__input"><br>
+                        <input type="submit" class="submit-button" value="Submit">
+                    </div>
+                </div>
+
+                <!-- login -->
+                <div id="id01" class="modal">
+                    <div class="container">
+                        <div class="screen">
+                            <div class="screen__content">
+                                <form class="login">
+                                    <div class="login__field">
+                                        <i class="login__icon fas fa-user"></i>
+                                        <input type="text" class="login__input" placeholder="User name / Email" style="border: none;
+                                                border-bottom: 2px solid #D4D3E8;">
+                                    </div>
+                                    <div class="login__field">
+                                        <i class="login__icon fas fa-lock"></i>
+                                        <input type="password" class="login__input" placeholder="Password" style="border: none;
+                                                border-bottom: 2px solid #D4D3E8;">
+                                    </div>
+                                    <button class="button login__submit">
+                                        <span class="button__text">Log In</span>
+                                        <i class="button__icon fas fa-chevron-right"></i>
+                                    </button>
+                                    <a href="">Or Register here</a>
+                                </form>
+                                <div class="social-login">
+                                    <p>log in via</p>
+                                    <div class="social-icons">
+                                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                                        <a href="#" class="social-login__icon fab fa-twitter"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="screen__background">
+                                <span class="screen__background__shape screen__background__shape4"></span>
+                                <span class="screen__background__shape screen__background__shape3"></span>
+                                <span class="screen__background__shape screen__background__shape2"></span>
+                                <span class="screen__background__shape screen__background__shape1"></span>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="login1" id="Works">
+                    <h1>How it Works</h1><br>
+                    <img class="info-pres" src="info.png" alt="info">
+                </div>
+
+                <!-- Team -->
+                <div id="team">
+                    <h1 style="margin-bottom:5%; margin-top:8% ;">Team Tensor</h1>
+                    <div class="flex-container" style="margin-bottom:5rem; margin-left: 1rem;">
+                        <div class="card card2"
+                            style="width: 13rem; height: 21rem; background-color: rgb(49, 43, 43) ;color: rgb(255, 255, 255);">
+                            <div class="card-body">
+                                <img src="sayali1.jpeg" class="card-img-top" alt="..." style="border-radius: 5%;">
+                                <p class="card-text"><b><br>Sayali Takalkar</b></p>
+                                <p>Team Leader <br>
+                                    Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="card card2"
+                            style="width: 13rem; height: 21rem; background-color: rgb(49, 43, 43) ;color: rgb(255, 255, 255);">
+                            <div class="card-body">
+                                <img src="vaibhav1.jpeg" class="card-img-top" alt="..." style="border-radius: 5%;">
+                                <p class="card-text"><b><br>Vaibhav Pawar</b></p>
+                                <p>Team Member<br>
+                                    Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="card card2"
+                            style="width: 13rem; height: 21rem; background-color: rgb(49, 43, 43) ;color: rgb(255, 255, 255);">
+                            <div class="card-body">
+                                <img src="devarshi1.jpeg" class="card-img-top" alt="..." style="border-radius: 5%;">
+                                <p class="card-text"><b><br>Devarshi Mahajan</b></p>
+                                <p>Team Member<br>
+                                    Machine Learning</p>
+                            </div>
+                        </div>
+                        <div class="card card2"
+                            style="width: 13rem; height: 21rem; background-color: rgb(49, 43, 43) ;color: rgb(255, 255, 255);">
+                            <div class="card-body">
+                                <img src="suraj1.jpg" class="card-img-top" alt="..." style="border-radius: 5%;">
+                                <p class="card-text"><b><br>Suraj Joshi</b></p>
+                                <p>Team Member<br>
+                                    Machine Learning</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <footer>
+                    <div id="footer">
+                        <a href="http://www.google.com" style="text-decoration:none; color:black"><i
+                                class="fa-brands fa-facebook social-icon"></i></a>
+                        <a href="https://twitter.com/TheVAPawar?t=qxxUPrGNv1-WSOXjODsk0g&s=09"
+                            style="text-decoration:none; color:black"><i
+                                class="fa-brands fa-twitter social-icon"></i></a>
+                        <a href="https://instagram.com/its_vap?igshid=YmMyMTA2M2Y="
+                            style="text-decoration:none; color:black"><i
+                                class="fa-brands fa-instagram social-icon"></i></a>
+                        <a href="mailto:vaibhavpawar3693@gmail.com" style="text-decoration:none; color:black"><i
+                                class="fa-solid fa-envelope social-icon"></i></a>
+                        <p>© Copyright 2022 Know Your Prescription <br> Team Tensor</p>
+                    </div>
+                    </footer>
+                <!-- js -->
+                <script type="text/javascript" src="sunhack.js"></script>
+
+                <!-- Bootstrap js -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
